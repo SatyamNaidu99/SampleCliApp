@@ -1,5 +1,5 @@
 pipeline {
-agent = 'multiple-general-platform'
+agent { label 'multiple-general-platform' }
 environment {
 dotnet = 'path\\to\\dotnet.exe'
 }
